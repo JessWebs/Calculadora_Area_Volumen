@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de volumen y área de figuras geométricas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Calculadora de volumen y área de figuras geométricas</h1>
+        <form>
+            <h2>Cubo</h2>
+            <label for="ladoCubo">Lado:</label>
+            <input type="number" id="ladoCubo">
+            <button type="button" onclick="calcularCubo()">Calcular</button>
+            <br>
+            <br>
+            <hr class="line">
+            <br>
+            <h2>Esfera</h2>
+            <label for="radioEsfera">Radio:</label>
+            <input type="number" id="radioEsfera">
+            <button type="button" onclick="calcularEsfera()">Calcular</button>
+            <br>
+            <br>
+            <hr class="line">
+            <h2>Cilindro</h2>
+            <br>
+            <label for="radioCilindro">Radio:</label>
+            <input type="number" id="radioCilindro">
+            <label for="alturaCilindro">Altura:</label>
+            <input type="number" id="alturaCilindro">
+            <button type="button" onclick="calcularCilindro()">Calcular</button>
+            <br>
+            <br>
+            <hr class="line">
+            <br>
+            <h2>Cono</h2>
+            <label for="radioCono">Radio:</label>
+            <input type="number" id="radioCono">
+            <label for="alturaCono">Altura:</label>
+            <input type="number" id="alturaCono">
+            <button type="button" onclick="calcularCono()">Calcular</button>
+        </form>
+        <p>made with ❤️ by Jesús</p>
+    </div>
+    <script src="calculo.js"></script>
+</body>
+
+</html>
